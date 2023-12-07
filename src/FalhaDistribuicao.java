@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-public class FalhaDistribuicao {
+public class FalhaDistribuicao extends Falha {
   private ArrayList<Reparo> reparos;
 
     public FalhaDistribuicao(String descricao, Date previsao) {
